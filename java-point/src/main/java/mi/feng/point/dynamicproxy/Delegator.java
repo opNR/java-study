@@ -1,7 +1,5 @@
 package mi.feng.point.dynamicproxy;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
