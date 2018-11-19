@@ -43,9 +43,10 @@ public class DictionaryDemo {
         DictionaryService dictionary = DictionaryService.getInstance();
 
         System.out.println(DictionaryDemo.lookup(dictionary, "book"));
-        System.out.println(DictionaryDemo.lookup(dictionary, "editor"));
+//        System.out.println(DictionaryDemo.lookup(dictionary, "editor"));
+
         System.out.println(DictionaryDemo.lookup(dictionary, "xml"));
-        System.out.println(DictionaryDemo.lookup(dictionary, "REST"));
+//        System.out.println(DictionaryDemo.lookup(dictionary, "REST"));
     }
 
     public static String lookup(DictionaryService dictionary, String word) {
